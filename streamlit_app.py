@@ -13,7 +13,7 @@ def get_retriever():
     """
     embeddings = ZhipuAIEmbeddings()
     # 向量库持久化路径
-    persist_directory = 'data_base/vector_db/chroma
+    persist_directory = './data_base/vector_db/chroma'
     vectordb = Chroma(
         embedding_function=embeddings,
         persist_directory=persist_directory,

@@ -1,0 +1,13 @@
+# 忽略 Python 编译生成的字节码文件
+__pycache__/
+*.py[cod]
+
+
+# 忽略模型或向量数据库
+*.bin
+*.pt
+*.db
+chroma/
+
+# 忽略环境变量配置
+.env
