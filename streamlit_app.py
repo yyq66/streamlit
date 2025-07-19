@@ -1,3 +1,8 @@
+import sys
+# import pysqlite3
+# sys.modules['sqlite3'] = pysqlite3
+
+
 import streamlit as st
 from zhipuai_embedding import ZhipuAIEmbeddings
 from zhipuai_llm import ZhipuaiLLM
