@@ -17,6 +17,7 @@ Secrets中填写自己的智谱API_KEY：ZHIPUAI_API_KEY = "xxxxxx"
 在 requirements.txt 中加上：
 ```
 pysqlite3-binary
+chromadb
 ```
 
 然后在代码最前面手动 patch：
