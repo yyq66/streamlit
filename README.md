@@ -5,10 +5,12 @@
 
 ### 2.设置
 选择python版本3.10
+
 Secrets中填写自己的智谱API_KEY：ZHIPUAI_API_KEY = "xxxxxx"
 
 ### 3.完成
 点击 Delop 按钮，加载依赖
+
 完成后应用程序部署到 Streamlit Community Cloud，并且可以从世界各地访问！
 
 **注意：**
