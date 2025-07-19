@@ -1,7 +1,13 @@
+
+import sys
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
+
 import streamlit as st
 from zhipuai_embedding import ZhipuAIEmbeddings
 from zhipuai_llm import ZhipuaiLLM
 from langchain_chroma import Chroma
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough,RunnableBranch
 from langchain_core.output_parsers import StrOutputParser
