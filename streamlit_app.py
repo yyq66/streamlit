@@ -1,6 +1,11 @@
-import sys
-import pysqlite3
-sys.modules['sqlite3'] = pysqlite3
+# 本地运行无需修改
+try:
+    import pysqlite3
+    import sys
+    sys.modules["sqlite3"] = pysqlite3
+except ImportError:
+    pass  # 本地或不需要就忽略
+
 
 
 import streamlit as st
