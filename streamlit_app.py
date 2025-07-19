@@ -38,7 +38,7 @@ def get_qa_history_chain():
     获取一个问答历史链
     """
     retriever = get_retriever()
-    llm = ZhipuaiLLM(model_name="glm-4-plus", temperature=0.1, api_key=os.getenv("ZHIPUAI_API_KEY"))
+    llm = ZhipuaiLLM(model_name="glm-4-plus", temperature=0.1, api_key="4164538d06bd4a9693561a5eddb59d59.FngXR8fgTwi4zAJX")
 
     # 压缩问题的系统提示模板
     condense_question_system_template = (
