@@ -1,8 +1,3 @@
-
-# import sys
-# import pysqlite3
-# sys.modules['sqlite3'] = pysqlite3
-
 import streamlit as st
 from zhipuai_embedding import ZhipuAIEmbeddings
 from zhipuai_llm import ZhipuaiLLM
@@ -117,7 +112,7 @@ def main():
     Streamlit 应用的主函数:
         该函数制定显示效果与逻辑
     """
-    st.markdown('### 🦜🔗 动手学大模型应用开发')
+    st.markdown('### 大模型应用开发')
     # st.session_state可以存储用户与应用交互期间的状态与数据
     # 存储对话历史
     if "messages" not in st.session_state:
